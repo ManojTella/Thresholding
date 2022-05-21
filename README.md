@@ -34,11 +34,6 @@ import matplotlib.pyplot as plt
 image = cv2.imread("jerry.jpeg")
 
 
-
-
-
-
-
 # Read the Image and convert to grayscale
 
 grayImage = cv2.cvtColor(image,cv2.COLOR_BGR2GRAY)
@@ -52,9 +47,6 @@ ret1,thresh1 = cv2.threshold(grayImage,100,200,cv2.THRESH_BINARY_INV)
 ret2, thresh2 = cv2.threshold(grayImage,100,200,cv2.THRESH_TRUNC)
 ret3, thresh3 = cv2.threshold(grayImage,100,200,cv2.THRESH_TOZERO)
 ret4, thresh4 = cv2.threshold(grayImage,100,200,cv2.THRESH_TOZERO_INV)
-
-
-
 
 
 # Use Adaptive thresholding to segment the image
@@ -91,9 +83,6 @@ plt.show()
 
 
 cv2.imshow("Otsu method",th3)
-
-
-
 
 
 ```
