@@ -24,8 +24,8 @@ To segment the image using global thresholding, adaptive thresholding and Otsu's
 <br>
 
 ## Program
-### Devleoped by:- Manoj Guna Sundar Tella.
-### Registration number:- 212221240026.
+#### Devleoped by:- Manoj Guna Sundar Tella.
+#### Registration number:- 212221240026.
 ```
 # Load the necessary packages
 
