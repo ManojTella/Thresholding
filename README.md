@@ -24,14 +24,19 @@ To segment the image using global thresholding, adaptive thresholding and Otsu's
 <br>
 
 ## Program
-#### Devleoped by:- Manoj Guna Sundar Tella.
-#### Registration number:- 212221240026.
 ```
+# Devleoped by:- Manoj Guna Sundar Tella.
+# Registration number:- 212221240026.
 # Load the necessary packages
 
 import cv2
 import matplotlib.pyplot as plt
-image = cv2.imread("jerry.jpeg")
+image = cv2.imread("parrot.jpeg")
+
+
+
+
+
 
 
 # Read the Image and convert to grayscale
@@ -47,6 +52,9 @@ ret1,thresh1 = cv2.threshold(grayImage,100,200,cv2.THRESH_BINARY_INV)
 ret2, thresh2 = cv2.threshold(grayImage,100,200,cv2.THRESH_TRUNC)
 ret3, thresh3 = cv2.threshold(grayImage,100,200,cv2.THRESH_TOZERO)
 ret4, thresh4 = cv2.threshold(grayImage,100,200,cv2.THRESH_TOZERO_INV)
+
+
+
 
 
 # Use Adaptive thresholding to segment the image
@@ -83,6 +91,8 @@ plt.show()
 
 
 cv2.imshow("Otsu method",th3)
+
+
 
 
 ```
