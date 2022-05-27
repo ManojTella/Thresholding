@@ -29,7 +29,7 @@ Display the output.
 <br>
 
 ## Program
-```
+```python
 # Devleoped by:- Manoj Guna Sundar Tella.
 # Registration number:- 212221240026.
 # Load the necessary packages
