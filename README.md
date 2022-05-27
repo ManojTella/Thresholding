@@ -108,7 +108,8 @@ cv2.imshow("Otsu method",th3)
 <br>
 <br>
 <br>
-![img2](https://user-images.githubusercontent.com/94883876/170659502-53ed0cb9-8668-42a5-90ff-8c6047fd897f.jpg)
+![img2](https://user-images.githubusercontent.com/94883876/170661135-9e786cf7-ca0e-456a-814d-2d45927306f8.jpg)
+
 
 <br>
 <br>
