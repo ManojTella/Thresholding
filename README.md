@@ -113,15 +113,8 @@ cv2.imshow("Otsu method",th3)
 
 ### Global Thresholding
 ![img3](https://user-images.githubusercontent.com/94883876/170659660-16bab5ff-6853-46d6-8fd0-be1fbd36ac76.jpg)
-<br>
-<br>
 ![img4](https://user-images.githubusercontent.com/94883876/170659775-297ba570-a5aa-45df-98cf-6707aca17b6d.jpg)
-
-<br>
-<br>
 ![img5](https://user-images.githubusercontent.com/94883876/170659869-cdaca946-f013-40bb-91cd-9c9ee0070ee4.jpg)
-
-<br>
 
 ### Adaptive Thresholding
 ![img6](https://user-images.githubusercontent.com/94883876/170659912-a90d7af0-7171-4e31-83eb-8d764230ed93.jpg)
